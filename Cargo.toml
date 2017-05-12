@@ -17,7 +17,9 @@ byteorder = "1.0"
 
 [dependencies.rust-crypto]
 git = "https://github.com/aoprisan/rust-crypto.git"
-branch = "c-feature-flag"
+#default-features = false
+branch = "noasm"
+
 
 [dependencies.clippy]
 optional = true
