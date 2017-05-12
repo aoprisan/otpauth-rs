@@ -13,7 +13,11 @@ version = "0.2.6"
 [dependencies]
 base32 = "0.3"
 byteorder = "1.0"
-rust-crypto = "0.2"
+#rust-crypto = "0.2"
+
+[dependencies.rust-crypto]
+git = "https://github.com/aoprisan/rust-crypto.git"
+branch = "c-feature-flag"
 
 [dependencies.clippy]
 optional = true
